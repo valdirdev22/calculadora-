@@ -1,0 +1,155 @@
+
+body {
+   background: #f4f2ec url(./matematica_1.jpg) repeat;
+ 
+}
+
+* style.css {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.box-degrade {
+  width: 1200px;
+  max-height: 240px;
+  padding-bottom: 30px;
+  display:block;
+ 
+  animation: degrade-animado 32s infinite;
+}
+
+@keyframes degrade-animado {
+  0% {
+      background-position-x: 100%;
+  }
+/*
+  100% {
+      background-position-x: 100%;
+  } */
+}
+
+
+
+h2{
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.container{
+  position: relative;
+  margin-top: 60px; 
+  margin-left: 380px;
+  max-height: 520px;
+  max-width: 520px;
+ /* margin: 50px auto;*/
+  background: #FFFF00;
+  padding: 3px;
+  padding-bottom: 60px;
+  border-radius: 7%;
+}
+ bn                     
+form input, form label, form button {
+   position: relative;
+   margin-left: 95px;
+   margin-bottom: 420px;  
+   border:chocolate;
+   display: block;
+   width: 50%;
+   margin-bottom: 5px;
+}
+
+
+form button {
+
+   margin-bottom: 280px;  
+}
+
+form input {
+   position: relative;
+   margin-left: 32px;
+   max-width: 90px;
+   background: #54eeae;
+   font-size: 24px;
+   height: 50px;
+   padding: 0 7px;
+   border-radius: 25px;
+   outline: none;
+   border: 2px;
+}
+ 
+form input:focus {
+   outline: 3px solid var(--primary-color);
+}
+
+form label{
+     position: relative;
+   margin-left: 32px;
+   
+    
+ }
+
+
+form button { 
+   position: relative;
+   max-width: 240px;
+   max-height: 240x;
+   background: var(--primay-color);
+   color: rgb(18, 19, 18);
+   font-size: 26px;
+   text-align: center;
+   font-weight: 120px;
+   cursor: pointer;
+   /*border-radius: 7%;*/
+}
+ 
+.calc {
+   margin-top: -230px;
+   width: 138px;
+   height: 40px;
+   border-radius: 27%;
+   
+}
+
+
+form button:hover {
+  background: rgb(14, 4, 158);
+  color:rgb(250, 235, 215)
+  
+
+}
+
+.calc {
+   background: rgb(34, 247, 80);
+   position: relative;
+   margin-left: 250px;
+}
+
+.paragrafo-resultado, .bad{
+     position: relative;
+     margin-left: 200px;
+     margin-bottom: 45px;
+     background: rgb(67, 148, 240);
+     font-size:x-large;
+     width: 230px;
+     height: 115px;
+     border-radius: 5%;      
+}
+
+.bad{
+  background: rgb(252, 61, 61);
+  margin-left: 200px;
+  margin-bottom: 45px;
+  width: 230px;
+  height: 96px;
+  border-radius: 5%;
+  font-size:x-large;
+}
+
+
+.resultado {
+   margin-bottom: -40px;
+   margin-left: 120px;
+   margin-bottom: 45px;
+}

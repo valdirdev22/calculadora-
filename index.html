@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-compatible" content="ie-edge">
+       <title>Calculadora de Equação do 2º Grau</title>
+       <link rel="stylesheet" href="style.css">
+
+   </head>   
+
+    <body class="box-degrade">
+
+        <section class='container'>
+        <h2>CALCULADORA DE EQUAÇÃO <br> DO 2º GRAU</h2>
+            <form action="/" id="formulario" method="POST">
+                <label for="valorA" id="p1">Coeficiente A:</label>
+                <input type="text" id="valorA" name="valorA">
+                    
+                <label for="valorB" id="p2">Coeficiente B:</label>
+                <input type="text" id="valorB" name="valorB">
+
+                <label for="valorC" id="p3">Coeficiente C:</label>
+                <input type="text" id="valorC" name="valorC">
+                <button type='submit' class="calc"><strong>Calcular</strong></button>
+            </form>
+            <div id="concavidade"></div>
+        <div id="resultado"></div>
+        </section>
+        <script src="./Cal_Equacao_2_garu.js"></script>
+    </body>
+</html>
